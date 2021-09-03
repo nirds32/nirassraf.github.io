@@ -2193,6 +2193,12 @@ input, select, textarea {
 			display: block;
 		}
 
+		.myimg{
+			border-radius: 50%;
+			width: 45%;
+			height: 45%;
+		}
+
 		.image.fit {
 			display: block;
 		}
