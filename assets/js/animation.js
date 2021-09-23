@@ -16,3 +16,9 @@
         easing: "easeOutExpo",
         delay: 5000
       });
+      
+      $("#scrolling").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#main").offset().top},
+            'slow');
+    });
