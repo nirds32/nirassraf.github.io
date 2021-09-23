@@ -2207,12 +2207,22 @@ input, select, textarea {
 		  }
 		  h1:hover span{
 			color: #fff;
-			text-shadow: 0 0 10px rgb(209, 185, 255),
+			text-shadow: 0 0 10px rgb(0, 12, 75),
 						 0 0 20px #fff, 
 						 0 0 40px #fff;
 		  }
 
 		
+		.scrolling{
+
+			position: absolute;
+			left: 50%;
+			bottom: 100px;
+			transform: translate(-50%, -50%);
+			width:5.2%;
+			height: auto;
+
+		}
 
 		.myimg{
 			border-radius: 50%;
